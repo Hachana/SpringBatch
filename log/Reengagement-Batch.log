@@ -1,0 +1,130 @@
+2022-02-23 12:10:16,458 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplicationTests using Java 1.8.0_241 on BCT105018 with PID 7304 (started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-02-23 12:10:16,460 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-23 12:10:17,121 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-23 12:10:17,190 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2022-02-23 12:10:17,778 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-23 12:10:17,843 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-02-23 12:10:18,074 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-23 12:10:18,286 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-23 12:10:18,452 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-23 12:10:18,488 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-02-23 12:10:19,051 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-23 12:10:19,061 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-23 12:10:19,114 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-02-23 12:10:19,139 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-02-23 12:10:19,616 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-02-23 12:10:19,673 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-02-23 12:10:19,675 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-02-23 12:10:19,678 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-02-23 12:10:19,689 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-02-23 12:10:19,975 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-23 12:10:20,596 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-02-23 12:10:20,603 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-02-23 12:10:20,621 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-02-23 12:10:20,932 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplicationTests in 4.776 seconds (JVM running for 5.546)
+2022-02-23 12:10:20,935 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-02-23 12:10:20,938 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-02-23 12:28:55,720 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplicationTests using Java 1.8.0_241 on BCT105018 with PID 8208 (started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-02-23 12:28:55,723 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-23 12:28:56,305 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-23 12:28:56,353 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2022-02-23 12:28:56,903 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-23 12:28:56,941 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-02-23 12:28:57,108 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-23 12:28:57,289 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-23 12:28:57,439 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-23 12:28:57,476 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-02-23 12:28:57,983 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-23 12:28:57,993 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-23 12:28:58,053 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-02-23 12:28:58,080 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-02-23 12:28:58,612 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-02-23 12:28:58,681 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-02-23 12:28:58,684 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-02-23 12:28:58,688 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-02-23 12:28:58,702 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-02-23 12:28:59,034 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-23 12:28:59,761 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-02-23 12:28:59,769 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-02-23 12:28:59,796 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-02-23 12:29:00,149 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplicationTests in 4.758 seconds (JVM running for 5.529)
+2022-02-23 12:29:00,152 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-02-23 12:29:00,156 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-02-23 12:52:08,425 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplicationTests using Java 1.8.0_241 on BCT105018 with PID 15284 (started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-02-23 12:52:08,428 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-23 12:52:09,111 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-23 12:52:09,158 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2022-02-23 12:52:09,726 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-23 12:52:09,790 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-02-23 12:52:09,981 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-23 12:52:10,190 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-23 12:52:10,347 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-23 12:52:10,379 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-02-23 12:52:10,950 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-23 12:52:10,960 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-23 12:52:11,019 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-02-23 12:52:11,045 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-02-23 12:52:11,538 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-02-23 12:52:11,611 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-02-23 12:52:11,614 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-02-23 12:52:11,618 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-02-23 12:52:11,629 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-02-23 12:52:12,084 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-23 12:52:13,003 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-02-23 12:52:13,019 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-02-23 12:52:13,039 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-02-23 12:52:13,421 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplicationTests in 5.277 seconds (JVM running for 6.199)
+2022-02-23 12:52:13,424 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-02-23 12:52:13,428 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-02-23 14:21:42,323 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplicationTests using Java 1.8.0_241 on BCT105018 with PID 6240 (started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-02-23 14:21:42,327 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-23 14:21:43,034 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-23 14:21:43,083 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2022-02-23 14:21:43,693 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-23 14:21:43,750 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-02-23 14:21:43,963 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-23 14:21:44,182 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-23 14:21:44,338 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-23 14:21:44,371 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-02-23 14:21:44,928 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-23 14:21:44,938 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-23 14:21:44,997 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-02-23 14:21:45,029 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-02-23 14:21:45,529 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-02-23 14:21:45,587 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-02-23 14:21:45,589 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-02-23 14:21:45,592 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-02-23 14:21:45,602 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-02-23 14:21:45,947 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-23 14:21:46,622 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-02-23 14:21:46,629 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-02-23 14:21:46,651 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-02-23 14:21:46,927 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplicationTests in 4.921 seconds (JVM running for 5.932)
+2022-02-23 14:21:46,929 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-02-23 14:21:46,932 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-02-23 15:00:01,985 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplicationTests using Java 1.8.0_241 on BCT105018 with PID 7424 (started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-02-23 15:00:01,987 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-23 15:00:02,797 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-23 15:00:02,871 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2022-02-23 15:00:03,478 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-23 15:00:03,535 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-02-23 15:00:03,727 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-23 15:00:03,932 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-23 15:00:04,094 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-23 15:00:04,126 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-02-23 15:00:04,645 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-23 15:00:04,655 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-23 15:00:04,709 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-02-23 15:00:04,740 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-02-23 15:00:05,220 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-02-23 15:00:05,303 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-02-23 15:00:05,306 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-02-23 15:00:05,310 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-02-23 15:00:05,327 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-02-23 15:00:05,942 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-23 15:00:06,551 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-02-23 15:00:06,561 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-02-23 15:00:06,611 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-02-23 15:00:06,968 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplicationTests in 5.308 seconds (JVM running for 6.085)
+2022-02-23 15:00:06,970 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-02-23 15:00:06,973 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC

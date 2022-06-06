@@ -1,0 +1,60 @@
+2022-02-28 15:43:31,128 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplication using Java 1.8.0_241 on BCT105018 with PID 1280 (C:\Users\nada.boumiza\Desktop\BatchRengJBPM\target\classes started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-02-28 15:43:31,134 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-28 15:43:31,694 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-28 15:43:31,738 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-02-28 15:43:32,150 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2022-02-28 15:43:32,159 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2022-02-28 15:43:32,160 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-02-28 15:43:32,160 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-02-28 15:43:32,230 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-02-28 15:43:32,230 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1065 ms
+2022-02-28 15:43:32,419 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-28 15:43:32,524 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-02-28 15:43:32,677 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-28 15:43:32,770 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-02-28 15:43:32,915 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-02-28 15:43:32,944 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-02-28 15:43:33,434 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-28 15:43:33,442 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-28 15:43:33,481 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-02-28 15:43:33,517 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-02-28 15:43:33,749 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-02-28 15:43:33,780 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-02-28 15:43:33,781 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-02-28 15:43:33,782 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-02-28 15:43:33,787 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-02-28 15:43:33,831 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-28 15:43:34,082 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-02-28 15:43:34,088 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-02-28 15:43:34,104 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-02-28 15:43:34,155 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2022-02-28 15:43:34,179 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2022-02-28 15:43:34,190 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplication in 3.474 seconds (JVM running for 4.133)
+2022-02-28 15:43:34,191 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-02-28 15:43:34,193 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-02-28 15:43:36,016 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-02-28 15:43:36,084 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646059416017}]
+2022-02-28 15:43:36,258 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-02-28 15:43:36,273 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-02-28 15:43:36,281 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@45ca3b05
+2022-02-28 15:43:36,372 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-02-28 15:43:36,387 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 128ms
+2022-02-28 15:43:36,409 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646059416017}] and the following status: [COMPLETED] in 181ms
+2022-02-28 15:43:38,011 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-02-28 15:43:38,039 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646059418011}]
+2022-02-28 15:43:38,061 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-02-28 15:43:38,073 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-02-28 15:43:38,073 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@45ca3b05
+2022-02-28 15:43:38,078 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-02-28 15:43:38,085 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 23ms
+2022-02-28 15:43:38,099 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646059418011}] and the following status: [COMPLETED] in 54ms
+2022-02-28 15:43:40,014 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-02-28 15:43:40,044 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646059420014}]
+2022-02-28 15:43:40,068 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-02-28 15:43:40,076 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-02-28 15:43:40,077 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@45ca3b05
+2022-02-28 15:43:40,081 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-02-28 15:43:40,086 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 18ms
+2022-02-28 15:43:40,098 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646059420014}] and the following status: [COMPLETED] in 49ms
+2022-02-28 15:43:40,295 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2022-02-28 15:43:40,295 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [RMI TCP Connection(2)-127.0.0.1] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC

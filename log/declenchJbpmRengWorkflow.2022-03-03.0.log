@@ -1,0 +1,1172 @@
+2022-03-03 09:36:36,009 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/nada.boumiza/.m2/repository/org/json/json/20211205/json-20211205.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/nada.boumiza/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-03-03 09:36:36,058 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplicationTests using Java 1.8.0_241 on BCT105018 with PID 6844 (started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-03-03 09:36:36,060 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-03 09:36:36,698 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-03 09:36:36,753 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-03-03 09:36:37,490 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-03 09:36:37,544 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-03-03 09:36:37,755 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-03 09:36:37,997 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-03-03 09:36:38,148 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-03-03 09:36:38,178 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-03-03 09:36:38,714 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-03 09:36:38,723 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-03 09:36:38,774 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-03-03 09:36:38,805 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-03-03 09:36:39,286 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-03-03 09:36:39,349 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-03-03 09:36:39,351 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-03-03 09:36:39,353 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-03-03 09:36:39,361 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-03-03 09:36:39,768 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-03 09:36:40,587 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-03 09:36:40,599 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-03-03 09:36:40,621 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-03 09:36:41,029 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplicationTests in 5.37 seconds (JVM running for 6.159)
+2022-03-03 09:36:41,032 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-03-03 09:36:41,036 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-03-03 09:40:19,633 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplication using Java 1.8.0_241 on BCT105018 with PID 21692 (C:\Users\nada.boumiza\Desktop\BatchRengJBPM\target\classes started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-03-03 09:40:19,635 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-03 09:40:20,100 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-03 09:40:20,139 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-03-03 09:40:20,522 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2022-03-03 09:40:20,531 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2022-03-03 09:40:20,531 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-03 09:40:20,532 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-03 09:40:20,613 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-03 09:40:20,613 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 948 ms
+2022-03-03 09:40:20,754 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-03 09:40:20,852 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-03-03 09:40:21,001 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-03 09:40:21,099 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-03-03 09:40:21,236 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-03-03 09:40:21,290 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-03-03 09:40:21,811 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-03 09:40:21,820 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-03 09:40:21,853 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-03-03 09:40:21,873 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-03-03 09:40:22,116 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-03-03 09:40:22,143 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-03-03 09:40:22,143 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-03-03 09:40:22,144 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-03-03 09:40:22,148 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-03-03 09:40:22,190 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-03 09:40:22,421 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-03 09:40:22,428 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-03-03 09:40:22,448 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-03 09:40:22,513 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2022-03-03 09:40:22,541 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2022-03-03 09:40:22,553 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplication in 3.271 seconds (JVM running for 3.819)
+2022-03-03 09:40:22,554 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-03-03 09:40:22,555 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-03-03 09:40:24,011 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 09:40:24,079 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646296824012}]
+2022-03-03 09:40:24,235 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 09:40:24,249 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 09:40:24,258 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@27cd477
+2022-03-03 09:40:24,344 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = 209 max of partion = 209
+2022-03-03 09:40:24,345 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =0 value {}
+2022-03-03 09:40:24,345 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =209 maxValue 209
+2022-03-03 09:40:24,405 INFO com.billcom.config.BatchConfig [scheduling-1] reading 209 to 209
+2022-03-03 09:40:24,406 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 09:40:24,445 INFO com.billcom.batch.ReengagementStartProcessor [Thread-3] => ReengagementStartProcessor IN COMMANDE-RENG-44014-46421
+2022-03-03 09:40:24,486 INFO com.billcom.service.ReengagementService [Thread-3] updateGrh {"commitmentPeriod":"10","commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[{"cocode":"CONTR0000677116","msisdn":"50030013"}]}
+2022-03-03 09:40:24,496 INFO com.billcom.service.ReengagementService [Thread-3] ----------------*************-----------
+2022-03-03 09:40:24,496 INFO com.billcom.service.ReengagementService [Thread-3] amount4,8cagnotteHT75.2cagnotteHtFacilite14
+2022-03-03 09:40:24,497 INFO com.billcom.service.ReengagementService [Thread-3] newAmount4.8
+2022-03-03 09:40:25,624 INFO com.billcom.utils.BatchUtils [Thread-3] ==> CustomerId after call rest :: 836363
+2022-03-03 09:40:25,626 INFO com.billcom.utils.BatchUtils [Thread-3] restResponse toString -> com.billcom.model.RestResponse@38c67a8a
+2022-03-03 09:40:25,626 INFO com.billcom.utils.BatchUtils [Thread-3] => result of rest JBPMStart ws :: {"id":3776,"comment":null,"errorCode":null,"isSuccessful":true}, comment :: null , ErrorCode :: null , isIssuccessful :: true , Id :: 3776
+2022-03-03 09:40:25,627 INFO com.billcom.service.ReengagementService [Thread-3] jsonnnnJbpmReengagement [custId=836363, canal=CRM, duedate=2020-02-02 00:00:00, osmReference=osm123456, updateOption=[com.billcom.model.UpdateOption@2e5576aa], injectionRbf=[com.billcom.model.InjectionRbf@35f25fe0], updateGrh=com.billcom.model.UpdateGrh@630ca70b, injectionGps=com.billcom.model.InjectionGps@681583ca, migration=[com.billcom.model.MigrationBean@6df05844], jbpmrefreegagement=COMMANDE-RENG-44014-46421]
+2022-03-03 09:40:25,627 INFO com.billcom.service.ReengagementService [Thread-3] beanBatch Response = true
+2022-03-03 09:40:25,627 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] => ReengagementStartWriter IN 1
+2022-03-03 09:40:25,627 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] Update request Issuccessful :: true with JBPM_Ref = COMMANDE-RENG-44014-46421
+2022-03-03 09:40:25,628 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] updateReengagementRequest for start true -> jbpmRef ::COMMANDE-RENG-44014-46421 , orderId ::  3776 , date :: 03/03/2022 09:40:25 , status :: 3 , error ::null
+2022-03-03 09:40:25,628 INFO com.billcom.service.ReengagementService [Thread-3] updateReengagementRequest -> jbpmRef ::COMMANDE-RENG-44014-46421 , orderId ::  3776 , date :: 03/03/2022 09:40:25 , status :: 3 , error ::null
+2022-03-03 09:40:25,628 INFO com.billcom.dao.BatchDaoImp [Thread-3] =>updateStatus Dao IN null
+2022-03-03 09:40:25,633 INFO com.billcom.dao.BatchDaoImp [Thread-3] <=updateStatus Dao out
+2022-03-03 09:40:25,652 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition0] executed in 1s275ms
+2022-03-03 09:40:25,661 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 1s425ms
+2022-03-03 09:40:25,677 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646296824012}] and the following status: [COMPLETED] in 1s465ms
+2022-03-03 09:40:26,014 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 09:40:26,042 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646296826014}]
+2022-03-03 09:40:26,065 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 09:40:26,075 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 09:40:26,076 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@27cd477
+2022-03-03 09:40:26,080 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 09:40:26,088 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 23ms
+2022-03-03 09:40:26,105 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646296826014}] and the following status: [COMPLETED] in 56ms
+2022-03-03 09:40:27,893 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2022-03-03 09:40:27,895 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [RMI TCP Connection(7)-127.0.0.1] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-03-03 18:01:17,009 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplication using Java 1.8.0_241 on BCT105018 with PID 12532 (C:\Users\nada.boumiza\Desktop\BatchRengJBPM\target\classes started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-03-03 18:01:17,012 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-03 18:01:17,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-03 18:01:17,495 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-03-03 18:01:17,841 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2022-03-03 18:01:17,849 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2022-03-03 18:01:17,850 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-03 18:01:17,850 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-03 18:01:17,924 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-03 18:01:17,924 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 884 ms
+2022-03-03 18:01:18,058 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-03 18:01:18,137 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-03-03 18:01:18,231 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-03 18:01:18,309 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-03-03 18:01:18,500 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-03-03 18:01:18,533 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-03-03 18:01:19,117 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-03 18:01:19,126 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-03 18:01:19,172 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-03-03 18:01:19,203 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-03-03 18:01:19,545 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-03-03 18:01:19,613 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-03-03 18:01:19,615 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-03-03 18:01:19,615 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-03-03 18:01:19,622 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-03-03 18:01:19,691 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-03 18:01:20,047 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-03 18:01:20,056 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-03-03 18:01:20,081 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-03 18:01:20,155 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2022-03-03 18:01:20,182 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2022-03-03 18:01:20,194 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplication in 3.526 seconds (JVM running for 3.951)
+2022-03-03 18:01:20,195 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-03-03 18:01:20,197 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-03-03 18:01:22,007 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:01:22,089 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646326882008}]
+2022-03-03 18:01:22,256 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:01:22,269 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:01:22,277 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@76074a84
+2022-03-03 18:01:22,373 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = 218 max of partion = 224
+2022-03-03 18:01:22,374 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =0 value {}
+2022-03-03 18:01:22,374 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =218 maxValue 218
+2022-03-03 18:01:22,385 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =1 value {}
+2022-03-03 18:01:22,385 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =219 maxValue 219
+2022-03-03 18:01:22,391 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =2 value {}
+2022-03-03 18:01:22,391 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =220 maxValue 220
+2022-03-03 18:01:22,396 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =3 value {}
+2022-03-03 18:01:22,396 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =221 maxValue 221
+2022-03-03 18:01:22,402 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =4 value {}
+2022-03-03 18:01:22,403 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =222 maxValue 222
+2022-03-03 18:01:22,408 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =5 value {}
+2022-03-03 18:01:22,408 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =223 maxValue 223
+2022-03-03 18:01:22,412 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =6 value {}
+2022-03-03 18:01:22,412 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =224 maxValue 224
+2022-03-03 18:01:22,532 INFO com.billcom.config.BatchConfig [scheduling-1] reading 223 to 223
+2022-03-03 18:01:22,534 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 18:01:22,578 INFO com.billcom.batch.ReengagementStartProcessor [Thread-3] => ReengagementStartProcessor IN COMMANDE-RENG-57406-90758
+2022-03-03 18:01:22,641 INFO com.billcom.service.ReengagementService [Thread-3] updateGrh {"commitmentPeriod":null,"commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[{"cocode":"CONTR0000677116","msisdn":"50030013"}]}
+2022-03-03 18:01:22,655 INFO com.billcom.service.ReengagementService [Thread-3] ----------------*************-----------
+2022-03-03 18:01:22,655 INFO com.billcom.service.ReengagementService [Thread-3] amount0cagnotteHT0cagnotteHtFacilite0
+2022-03-03 18:01:43,745 INFO com.billcom.service.ReengagementService [Thread-3] batchModeTraitement error message ::  Error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:01:43,745 ERROR com.billcom.service.ReengagementService [Thread-3] error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:01:43,748 INFO com.billcom.service.ReengagementService [Thread-3] isIssuccessful :: false
+2022-03-03 18:01:43,749 INFO com.billcom.batch.ReengagementStartProcessor [Thread-3] Catch Error in ReengagementStartProcessor :: Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:01:43,750 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] => ReengagementStartWriter IN 1
+2022-03-03 18:01:43,752 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] Update request Issuccessful :: false with JBPM_Ref = COMMANDE-RENG-57406-90758
+2022-03-03 18:01:43,752 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] updateReengagementRequest for start false -> jbpmRef ::COMMANDE-RENG-57406-90758 , orderId ::  0 , date :: 03/03/2022 18:01:43 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:01:43,752 INFO com.billcom.service.ReengagementService [Thread-3] updateReengagementRequest -> jbpmRef ::COMMANDE-RENG-57406-90758 , orderId ::  0 , date :: 03/03/2022 18:01:43 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:01:43,752 INFO com.billcom.dao.BatchDaoImp [Thread-3] =>updateStatus Dao IN Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:01:43,764 INFO com.billcom.dao.BatchDaoImp [Thread-3] <=updateStatus Dao out
+2022-03-03 18:01:43,787 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition5] executed in 21s287ms
+2022-03-03 18:01:43,803 INFO com.billcom.config.BatchConfig [scheduling-1] reading 218 to 218
+2022-03-03 18:01:43,804 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 18:01:43,815 INFO com.billcom.batch.ReengagementStartProcessor [Thread-3] => ReengagementStartProcessor IN COMMANDE-RENG-68411-7741
+2022-03-03 18:01:43,818 INFO com.billcom.service.ReengagementService [Thread-3] updateGrh {"commitmentPeriod":"10","commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[{"cocode":"CONTR0000677116","msisdn":"50030013"}]}
+2022-03-03 18:01:43,819 INFO com.billcom.service.ReengagementService [Thread-3] ----------------*************-----------
+2022-03-03 18:01:43,820 INFO com.billcom.service.ReengagementService [Thread-3] amount0cagnotteHT0cagnotteHtFacilite0
+2022-03-03 18:02:04,875 INFO com.billcom.service.ReengagementService [Thread-3] batchModeTraitement error message ::  Error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:04,876 ERROR com.billcom.service.ReengagementService [Thread-3] error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:04,877 INFO com.billcom.service.ReengagementService [Thread-3] isIssuccessful :: false
+2022-03-03 18:02:04,878 INFO com.billcom.batch.ReengagementStartProcessor [Thread-3] Catch Error in ReengagementStartProcessor :: Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:04,878 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] => ReengagementStartWriter IN 1
+2022-03-03 18:02:04,878 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] Update request Issuccessful :: false with JBPM_Ref = COMMANDE-RENG-68411-7741
+2022-03-03 18:02:04,878 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] updateReengagementRequest for start false -> jbpmRef ::COMMANDE-RENG-68411-7741 , orderId ::  0 , date :: 03/03/2022 18:02:04 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:04,878 INFO com.billcom.service.ReengagementService [Thread-3] updateReengagementRequest -> jbpmRef ::COMMANDE-RENG-68411-7741 , orderId ::  0 , date :: 03/03/2022 18:02:04 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:04,878 INFO com.billcom.dao.BatchDaoImp [Thread-3] =>updateStatus Dao IN Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:04,883 INFO com.billcom.dao.BatchDaoImp [Thread-3] <=updateStatus Dao out
+2022-03-03 18:02:04,900 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition0] executed in 21s107ms
+2022-03-03 18:02:04,929 INFO com.billcom.config.BatchConfig [scheduling-1] reading 220 to 220
+2022-03-03 18:02:04,929 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 18:02:04,939 INFO com.billcom.batch.ReengagementStartProcessor [Thread-2] => ReengagementStartProcessor IN COMMANDE-RENG-45623-73449
+2022-03-03 18:02:04,946 INFO com.billcom.service.ReengagementService [Thread-2] updateGrh {"commitmentPeriod":"10","commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[]}
+2022-03-03 18:02:04,949 INFO com.billcom.service.ReengagementService [Thread-2] ----------------*************-----------
+2022-03-03 18:02:04,949 INFO com.billcom.service.ReengagementService [Thread-2] amount0cagnotteHT0cagnotteHtFacilite0
+2022-03-03 18:02:08,337 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2022-03-03 18:02:08,338 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [RMI TCP Connection(9)-127.0.0.1] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-03-03 18:02:08,431 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(9)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-03 18:02:08,432 ERROR org.springframework.batch.core.step.AbstractStep [scheduling-1] Encountered an error executing step slaveStepForStart in job processJobStart
+java.lang.InterruptedException: null
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.springframework.batch.repeat.support.ResultHolderResultQueue.take(ResultHolderResultQueue.java:139)
+	at org.springframework.batch.repeat.support.ResultHolderResultQueue.take(ResultHolderResultQueue.java:33)
+	at org.springframework.batch.repeat.support.TaskExecutorRepeatTemplate.getNextResult(TaskExecutorRepeatTemplate.java:144)
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215)
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145)
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler$1.call(TaskExecutorPartitionHandler.java:138)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler$1.call(TaskExecutorPartitionHandler.java:135)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler.doHandle(TaskExecutorPartitionHandler.java:103)
+	at org.springframework.batch.core.partition.support.AbstractPartitionHandler.handle(AbstractPartitionHandler.java:61)
+	at org.springframework.batch.core.partition.support.PartitionStep.doExecute(PartitionStep.java:106)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy85.run(Unknown Source)
+	at com.billcom.BatchLauncher.run(BatchLauncher.java:59)
+	at com.billcom.Scheduler.perform(Scheduler.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-03 18:02:08,433 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-03-03 18:02:08,433 ERROR org.springframework.batch.core.step.AbstractStep [scheduling-1] Encountered an error saving batch meta data for step slaveStepForStart in job processJobStart. This job is now in an unknown state and should not be restarted.
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.updateExecutionContext(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.updateExecutionContext(Unknown Source)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:254)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler$1.call(TaskExecutorPartitionHandler.java:138)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler$1.call(TaskExecutorPartitionHandler.java:135)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler.doHandle(TaskExecutorPartitionHandler.java:103)
+	at org.springframework.batch.core.partition.support.AbstractPartitionHandler.handle(AbstractPartitionHandler.java:61)
+	at org.springframework.batch.core.partition.support.PartitionStep.doExecute(PartitionStep.java:106)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy85.run(Unknown Source)
+	at com.billcom.BatchLauncher.run(BatchLauncher.java:59)
+	at com.billcom.Scheduler.perform(Scheduler.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:530)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:609)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:156)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734)
+	at com.sun.proxy.$Proxy80.createNativeEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410)
+	... 61 common frames omitted
+2022-03-03 18:02:08,433 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition2] executed in 3s527ms
+2022-03-03 18:02:08,434 ERROR org.springframework.batch.core.step.AbstractStep [scheduling-1] Encountered an error saving batch meta data for step slaveStepForStart in job processJobStart. This job is now in an unknown state and should not be restarted.
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:276)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler$1.call(TaskExecutorPartitionHandler.java:138)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler$1.call(TaskExecutorPartitionHandler.java:135)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler.doHandle(TaskExecutorPartitionHandler.java:103)
+	at org.springframework.batch.core.partition.support.AbstractPartitionHandler.handle(AbstractPartitionHandler.java:61)
+	at org.springframework.batch.core.partition.support.PartitionStep.doExecute(PartitionStep.java:106)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy85.run(Unknown Source)
+	at com.billcom.BatchLauncher.run(BatchLauncher.java:59)
+	at com.billcom.Scheduler.perform(Scheduler.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:530)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:609)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:156)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734)
+	at com.sun.proxy.$Proxy80.createNativeEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410)
+	... 61 common frames omitted
+2022-03-03 18:02:08,436 ERROR org.springframework.batch.core.step.AbstractStep [scheduling-1] Encountered an error executing step startStep in job processJobStart
+java.util.concurrent.ExecutionException: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler.doHandle(TaskExecutorPartitionHandler.java:120)
+	at org.springframework.batch.core.partition.support.AbstractPartitionHandler.handle(AbstractPartitionHandler.java:61)
+	at org.springframework.batch.core.partition.support.PartitionStep.doExecute(PartitionStep.java:106)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy85.run(Unknown Source)
+	at com.billcom.BatchLauncher.run(BatchLauncher.java:59)
+	at com.billcom.Scheduler.perform(Scheduler.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:196)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler$1.call(TaskExecutorPartitionHandler.java:138)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler$1.call(TaskExecutorPartitionHandler.java:135)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.partition.support.TaskExecutorPartitionHandler.doHandle(TaskExecutorPartitionHandler.java:103)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:530)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:609)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:156)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734)
+	at com.sun.proxy.$Proxy80.createNativeEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410)
+	... 61 common frames omitted
+2022-03-03 18:02:08,436 ERROR org.springframework.batch.core.step.AbstractStep [scheduling-1] Encountered an error saving batch meta data for step startStep in job processJobStart. This job is now in an unknown state and should not be restarted.
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.updateExecutionContext(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.updateExecutionContext(Unknown Source)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:254)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy85.run(Unknown Source)
+	at com.billcom.BatchLauncher.run(BatchLauncher.java:59)
+	at com.billcom.Scheduler.perform(Scheduler.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:530)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:609)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:156)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734)
+	at com.sun.proxy.$Proxy80.createNativeEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410)
+	... 53 common frames omitted
+2022-03-03 18:02:08,436 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 46s179ms
+2022-03-03 18:02:08,437 ERROR org.springframework.batch.core.step.AbstractStep [scheduling-1] Encountered an error saving batch meta data for step startStep in job processJobStart. This job is now in an unknown state and should not be restarted.
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:276)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy85.run(Unknown Source)
+	at com.billcom.BatchLauncher.run(BatchLauncher.java:59)
+	at com.billcom.Scheduler.perform(Scheduler.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:530)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:609)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:156)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734)
+	at com.sun.proxy.$Proxy80.createNativeEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410)
+	... 53 common frames omitted
+2022-03-03 18:02:08,437 ERROR org.springframework.batch.core.job.AbstractJob [scheduling-1] Encountered fatal error executing job
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.updateExecutionContext(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.updateExecutionContext(Unknown Source)
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:163)
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413)
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy85.run(Unknown Source)
+	at com.billcom.BatchLauncher.run(BatchLauncher.java:59)
+	at com.billcom.Scheduler.perform(Scheduler.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:530)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:609)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:156)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734)
+	at com.sun.proxy.$Proxy80.createNativeEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410)
+	... 53 common frames omitted
+2022-03-03 18:02:08,440 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] failed unexpectedly and fatally with the following parameters: [{time=1646326882008}]
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:378)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy85.run(Unknown Source)
+	at com.billcom.BatchLauncher.run(BatchLauncher.java:59)
+	at com.billcom.Scheduler.perform(Scheduler.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:530)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:609)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:156)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734)
+	at com.sun.proxy.$Proxy80.createNativeEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410)
+	... 50 common frames omitted
+2022-03-03 18:02:08,440 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy83.update(Unknown Source)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:378)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy85.run(Unknown Source)
+	at com.billcom.BatchLauncher.run(BatchLauncher.java:59)
+	at com.billcom.Scheduler.perform(Scheduler.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:530)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:609)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:156)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734)
+	at com.sun.proxy.$Proxy80.createNativeEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410)
+	... 50 common frames omitted
+2022-03-03 18:02:08,444 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-03-03 18:02:34,481 INFO org.springframework.boot.StartupInfoLogger [main] Starting BatchProcessingApplication using Java 1.8.0_241 on BCT105018 with PID 18796 (C:\Users\nada.boumiza\Desktop\BatchRengJBPM\target\classes started by nada.boumiza in C:\Users\nada.boumiza\Desktop\BatchRengJBPM)
+2022-03-03 18:02:34,483 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-03-03 18:02:34,947 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-03 18:02:34,984 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-03-03 18:02:35,346 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2022-03-03 18:02:35,354 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2022-03-03 18:02:35,354 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-03-03 18:02:35,354 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-03 18:02:35,412 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-03 18:02:35,413 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 904 ms
+2022-03-03 18:02:35,550 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-03 18:02:35,629 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-03-03 18:02:35,724 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-03 18:02:35,794 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-03-03 18:02:35,909 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-03-03 18:02:35,930 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-03-03 18:02:36,390 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-03 18:02:36,400 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-03 18:02:36,454 INFO com.billcom.config.BatchConfig [main] In job for start 
+2022-03-03 18:02:36,502 INFO com.billcom.config.BatchConfig [main] In processorForStart for reengagement 
+2022-03-03 18:02:36,782 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriter ForStart 
+2022-03-03 18:02:36,814 INFO com.billcom.config.BatchConfig [main] In job for recycle 
+2022-03-03 18:02:36,815 INFO com.billcom.config.BatchConfig [main] In processorForRecycle 
+2022-03-03 18:02:36,816 INFO com.billcom.config.BatchConfig [main] In reengagementRequestItemWriterForRecycle 
+2022-03-03 18:02:36,821 INFO com.billcom.config.BatchConfig [main] In job for parallel 
+2022-03-03 18:02:36,881 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-03 18:02:37,166 WARN org.springframework.boot.autoconfigure.batch.JpaBatchConfigurer [main] JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2022-03-03 18:02:37,171 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-03-03 18:02:37,187 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-03 18:02:37,242 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2022-03-03 18:02:37,258 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2022-03-03 18:02:37,269 INFO org.springframework.boot.StartupInfoLogger [main] Started BatchProcessingApplication in 3.116 seconds (JVM running for 3.533)
+2022-03-03 18:02:37,270 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2022-03-03 18:02:37,272 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-03-03 18:02:38,014 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:02:38,082 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646326958015}]
+2022-03-03 18:02:38,255 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:02:38,268 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:02:38,275 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:02:38,371 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = 219 max of partion = 224
+2022-03-03 18:02:38,372 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =0 value {}
+2022-03-03 18:02:38,372 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =219 maxValue 219
+2022-03-03 18:02:38,383 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =1 value {}
+2022-03-03 18:02:38,384 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =220 maxValue 220
+2022-03-03 18:02:38,390 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =2 value {}
+2022-03-03 18:02:38,390 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =221 maxValue 221
+2022-03-03 18:02:38,395 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =3 value {}
+2022-03-03 18:02:38,396 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =222 maxValue 222
+2022-03-03 18:02:38,401 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =4 value {}
+2022-03-03 18:02:38,401 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =223 maxValue 223
+2022-03-03 18:02:38,405 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] number =5 value {}
+2022-03-03 18:02:38,406 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] minValue =224 maxValue 224
+2022-03-03 18:02:38,503 INFO com.billcom.config.BatchConfig [scheduling-1] reading 224 to 224
+2022-03-03 18:02:38,504 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 18:02:38,541 INFO com.billcom.batch.ReengagementStartProcessor [Thread-1] => ReengagementStartProcessor IN COMMANDE-RENG-16315-18977
+2022-03-03 18:02:38,597 INFO com.billcom.service.ReengagementService [Thread-1] updateGrh {"commitmentPeriod":"10","commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[{"cocode":"CONTR0000677116","msisdn":"50030013"}]}
+2022-03-03 18:02:38,607 INFO com.billcom.service.ReengagementService [Thread-1] ----------------*************-----------
+2022-03-03 18:02:38,607 INFO com.billcom.service.ReengagementService [Thread-1] amount0cagnotteHT0cagnotteHtFacilite0
+2022-03-03 18:02:59,698 INFO com.billcom.service.ReengagementService [Thread-1] batchModeTraitement error message ::  Error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:59,699 ERROR com.billcom.service.ReengagementService [Thread-1] error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:59,700 INFO com.billcom.service.ReengagementService [Thread-1] isIssuccessful :: false
+2022-03-03 18:02:59,701 INFO com.billcom.batch.ReengagementStartProcessor [Thread-1] Catch Error in ReengagementStartProcessor :: Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:59,701 INFO com.billcom.batch.ReengagementStartWriter [Thread-1] => ReengagementStartWriter IN 1
+2022-03-03 18:02:59,702 INFO com.billcom.batch.ReengagementStartWriter [Thread-1] Update request Issuccessful :: false with JBPM_Ref = COMMANDE-RENG-16315-18977
+2022-03-03 18:02:59,702 INFO com.billcom.batch.ReengagementStartWriter [Thread-1] updateReengagementRequest for start false -> jbpmRef ::COMMANDE-RENG-16315-18977 , orderId ::  0 , date :: 03/03/2022 18:02:59 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:59,702 INFO com.billcom.service.ReengagementService [Thread-1] updateReengagementRequest -> jbpmRef ::COMMANDE-RENG-16315-18977 , orderId ::  0 , date :: 03/03/2022 18:02:59 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:59,702 INFO com.billcom.dao.BatchDaoImp [Thread-1] =>updateStatus Dao IN Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:02:59,706 INFO com.billcom.dao.BatchDaoImp [Thread-1] <=updateStatus Dao out
+2022-03-03 18:02:59,724 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition5] executed in 21s248ms
+2022-03-03 18:02:59,733 INFO com.billcom.config.BatchConfig [scheduling-1] reading 219 to 219
+2022-03-03 18:02:59,733 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 18:02:59,741 INFO com.billcom.batch.ReengagementStartProcessor [Thread-1] => ReengagementStartProcessor IN COMMANDE-RENG-93390-7767
+2022-03-03 18:02:59,744 INFO com.billcom.service.ReengagementService [Thread-1] updateGrh {"commitmentPeriod":"10","commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[{"cocode":"CONTR0000677116","msisdn":"50030013"}]}
+2022-03-03 18:02:59,745 INFO com.billcom.service.ReengagementService [Thread-1] ----------------*************-----------
+2022-03-03 18:02:59,745 INFO com.billcom.service.ReengagementService [Thread-1] amount0cagnotteHT0cagnotteHtFacilite0
+2022-03-03 18:03:20,783 INFO com.billcom.service.ReengagementService [Thread-1] batchModeTraitement error message ::  Error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:20,784 ERROR com.billcom.service.ReengagementService [Thread-1] error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:20,785 INFO com.billcom.service.ReengagementService [Thread-1] isIssuccessful :: false
+2022-03-03 18:03:20,785 INFO com.billcom.batch.ReengagementStartProcessor [Thread-1] Catch Error in ReengagementStartProcessor :: Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:20,785 INFO com.billcom.batch.ReengagementStartWriter [Thread-1] => ReengagementStartWriter IN 1
+2022-03-03 18:03:20,785 INFO com.billcom.batch.ReengagementStartWriter [Thread-1] Update request Issuccessful :: false with JBPM_Ref = COMMANDE-RENG-93390-7767
+2022-03-03 18:03:20,786 INFO com.billcom.batch.ReengagementStartWriter [Thread-1] updateReengagementRequest for start false -> jbpmRef ::COMMANDE-RENG-93390-7767 , orderId ::  0 , date :: 03/03/2022 18:03:20 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:20,786 INFO com.billcom.service.ReengagementService [Thread-1] updateReengagementRequest -> jbpmRef ::COMMANDE-RENG-93390-7767 , orderId ::  0 , date :: 03/03/2022 18:03:20 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:20,786 INFO com.billcom.dao.BatchDaoImp [Thread-1] =>updateStatus Dao IN Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:20,790 INFO com.billcom.dao.BatchDaoImp [Thread-1] <=updateStatus Dao out
+2022-03-03 18:03:20,808 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition0] executed in 21s79ms
+2022-03-03 18:03:20,819 INFO com.billcom.config.BatchConfig [scheduling-1] reading 222 to 222
+2022-03-03 18:03:20,820 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 18:03:20,828 INFO com.billcom.batch.ReengagementStartProcessor [Thread-2] => ReengagementStartProcessor IN COMMANDE-RENG-94386-40791
+2022-03-03 18:03:20,833 INFO com.billcom.service.ReengagementService [Thread-2] updateGrh {"commitmentPeriod":null,"commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[{"cocode":"CONTR0000677116","msisdn":"50030013"}]}
+2022-03-03 18:03:20,836 INFO com.billcom.service.ReengagementService [Thread-2] ----------------*************-----------
+2022-03-03 18:03:20,836 INFO com.billcom.service.ReengagementService [Thread-2] amount0cagnotteHT0cagnotteHtFacilite0
+2022-03-03 18:03:41,891 INFO com.billcom.service.ReengagementService [Thread-2] batchModeTraitement error message ::  Error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:41,892 ERROR com.billcom.service.ReengagementService [Thread-2] error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:41,893 INFO com.billcom.service.ReengagementService [Thread-2] isIssuccessful :: false
+2022-03-03 18:03:41,893 INFO com.billcom.batch.ReengagementStartProcessor [Thread-2] Catch Error in ReengagementStartProcessor :: Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:41,894 INFO com.billcom.batch.ReengagementStartWriter [Thread-2] => ReengagementStartWriter IN 1
+2022-03-03 18:03:41,894 INFO com.billcom.batch.ReengagementStartWriter [Thread-2] Update request Issuccessful :: false with JBPM_Ref = COMMANDE-RENG-94386-40791
+2022-03-03 18:03:41,894 INFO com.billcom.batch.ReengagementStartWriter [Thread-2] updateReengagementRequest for start false -> jbpmRef ::COMMANDE-RENG-94386-40791 , orderId ::  0 , date :: 03/03/2022 18:03:41 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:41,894 INFO com.billcom.service.ReengagementService [Thread-2] updateReengagementRequest -> jbpmRef ::COMMANDE-RENG-94386-40791 , orderId ::  0 , date :: 03/03/2022 18:03:41 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:41,894 INFO com.billcom.dao.BatchDaoImp [Thread-2] =>updateStatus Dao IN Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:03:41,898 INFO com.billcom.dao.BatchDaoImp [Thread-2] <=updateStatus Dao out
+2022-03-03 18:03:41,919 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition3] executed in 21s105ms
+2022-03-03 18:03:41,932 INFO com.billcom.config.BatchConfig [scheduling-1] reading 221 to 221
+2022-03-03 18:03:41,932 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 18:03:41,941 INFO com.billcom.batch.ReengagementStartProcessor [Thread-1] => ReengagementStartProcessor IN COMMANDE-RENG-70437-15430
+2022-03-03 18:03:41,944 INFO com.billcom.service.ReengagementService [Thread-1] updateGrh {"commitmentPeriod":"10","commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[{"cocode":"CONTR0000677116","msisdn":"50030013"}]}
+2022-03-03 18:03:41,946 INFO com.billcom.service.ReengagementService [Thread-1] ----------------*************-----------
+2022-03-03 18:03:41,946 INFO com.billcom.service.ReengagementService [Thread-1] amount0cagnotteHT0cagnotteHtFacilite0
+2022-03-03 18:04:02,998 INFO com.billcom.service.ReengagementService [Thread-1] batchModeTraitement error message ::  Error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:02,999 ERROR com.billcom.service.ReengagementService [Thread-1] error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:03,000 INFO com.billcom.service.ReengagementService [Thread-1] isIssuccessful :: false
+2022-03-03 18:04:03,000 INFO com.billcom.batch.ReengagementStartProcessor [Thread-1] Catch Error in ReengagementStartProcessor :: Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:03,000 INFO com.billcom.batch.ReengagementStartWriter [Thread-1] => ReengagementStartWriter IN 1
+2022-03-03 18:04:03,001 INFO com.billcom.batch.ReengagementStartWriter [Thread-1] Update request Issuccessful :: false with JBPM_Ref = COMMANDE-RENG-70437-15430
+2022-03-03 18:04:03,001 INFO com.billcom.batch.ReengagementStartWriter [Thread-1] updateReengagementRequest for start false -> jbpmRef ::COMMANDE-RENG-70437-15430 , orderId ::  0 , date :: 03/03/2022 18:04:03 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:03,001 INFO com.billcom.service.ReengagementService [Thread-1] updateReengagementRequest -> jbpmRef ::COMMANDE-RENG-70437-15430 , orderId ::  0 , date :: 03/03/2022 18:04:03 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:03,001 INFO com.billcom.dao.BatchDaoImp [Thread-1] =>updateStatus Dao IN Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:03,005 INFO com.billcom.dao.BatchDaoImp [Thread-1] <=updateStatus Dao out
+2022-03-03 18:04:03,025 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition2] executed in 21s99ms
+2022-03-03 18:04:03,037 INFO com.billcom.config.BatchConfig [scheduling-1] reading 220 to 220
+2022-03-03 18:04:03,037 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 18:04:03,045 INFO com.billcom.batch.ReengagementStartProcessor [Thread-3] => ReengagementStartProcessor IN COMMANDE-RENG-45623-73449
+2022-03-03 18:04:03,048 INFO com.billcom.service.ReengagementService [Thread-3] updateGrh {"commitmentPeriod":"10","commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[]}
+2022-03-03 18:04:03,049 INFO com.billcom.service.ReengagementService [Thread-3] ----------------*************-----------
+2022-03-03 18:04:03,049 INFO com.billcom.service.ReengagementService [Thread-3] amount0cagnotteHT0cagnotteHtFacilite0
+2022-03-03 18:04:24,071 INFO com.billcom.service.ReengagementService [Thread-3] batchModeTraitement error message ::  Error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:24,072 ERROR com.billcom.service.ReengagementService [Thread-3] error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:24,073 INFO com.billcom.service.ReengagementService [Thread-3] isIssuccessful :: false
+2022-03-03 18:04:24,073 INFO com.billcom.batch.ReengagementStartProcessor [Thread-3] Catch Error in ReengagementStartProcessor :: Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:24,073 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] => ReengagementStartWriter IN 1
+2022-03-03 18:04:24,073 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] Update request Issuccessful :: false with JBPM_Ref = COMMANDE-RENG-45623-73449
+2022-03-03 18:04:24,073 INFO com.billcom.batch.ReengagementStartWriter [Thread-3] updateReengagementRequest for start false -> jbpmRef ::COMMANDE-RENG-45623-73449 , orderId ::  0 , date :: 03/03/2022 18:04:24 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:24,073 INFO com.billcom.service.ReengagementService [Thread-3] updateReengagementRequest -> jbpmRef ::COMMANDE-RENG-45623-73449 , orderId ::  0 , date :: 03/03/2022 18:04:24 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:24,074 INFO com.billcom.dao.BatchDaoImp [Thread-3] =>updateStatus Dao IN Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:24,077 INFO com.billcom.dao.BatchDaoImp [Thread-3] <=updateStatus Dao out
+2022-03-03 18:04:24,097 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition1] executed in 21s65ms
+2022-03-03 18:04:24,107 INFO com.billcom.config.BatchConfig [scheduling-1] reading 223 to 223
+2022-03-03 18:04:24,107 INFO com.billcom.config.BatchConfig [scheduling-1] -> Query to read :: SELECT ID, ORDER_ID, JBPM_Ref_Rengagement, CUST_ID, CANAL, DUEDATE, OSMREFERENCE, MIGARATION, UPDATEOPTION, UPDATEGRH, INJECTIONRBF, INJECTIONGPS, STATUS FROM REENGAGEMENT_REQUEST  where ID >= :minValue  and ID <= :maxValue  and STATUS = :status
+2022-03-03 18:04:24,115 INFO com.billcom.batch.ReengagementStartProcessor [Thread-2] => ReengagementStartProcessor IN COMMANDE-RENG-57406-90758
+2022-03-03 18:04:24,117 INFO com.billcom.service.ReengagementService [Thread-2] updateGrh {"commitmentPeriod":null,"commitmentStartDate":"2021-07-25T08:58:13.973Z","contractList":[{"cocode":"CONTR0000677116","msisdn":"50030013"}]}
+2022-03-03 18:04:24,119 INFO com.billcom.service.ReengagementService [Thread-2] ----------------*************-----------
+2022-03-03 18:04:24,119 INFO com.billcom.service.ReengagementService [Thread-2] amount0cagnotteHT0cagnotteHtFacilite0
+2022-03-03 18:04:45,185 INFO com.billcom.service.ReengagementService [Thread-2] batchModeTraitement error message ::  Error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:45,186 ERROR com.billcom.service.ReengagementService [Thread-2] error message :: I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:45,188 INFO com.billcom.service.ReengagementService [Thread-2] isIssuccessful :: false
+2022-03-03 18:04:45,189 INFO com.billcom.batch.ReengagementStartProcessor [Thread-2] Catch Error in ReengagementStartProcessor :: Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:45,189 INFO com.billcom.batch.ReengagementStartWriter [Thread-2] => ReengagementStartWriter IN 1
+2022-03-03 18:04:45,189 INFO com.billcom.batch.ReengagementStartWriter [Thread-2] Update request Issuccessful :: false with JBPM_Ref = COMMANDE-RENG-57406-90758
+2022-03-03 18:04:45,189 INFO com.billcom.batch.ReengagementStartWriter [Thread-2] updateReengagementRequest for start false -> jbpmRef ::COMMANDE-RENG-57406-90758 , orderId ::  0 , date :: 03/03/2022 18:04:45 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:45,189 INFO com.billcom.service.ReengagementService [Thread-2] updateReengagementRequest -> jbpmRef ::COMMANDE-RENG-57406-90758 , orderId ::  0 , date :: 03/03/2022 18:04:45 , status :: 0 , error ::Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:45,189 INFO com.billcom.dao.BatchDaoImp [Thread-2] =>updateStatus Dao IN Error message  : I/O error on POST request for "http://192.168.1.34:8089/Pbi_Jbpm_Rest/jbpmOrderReengagement/StartReengagement": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+2022-03-03 18:04:45,193 INFO com.billcom.dao.BatchDaoImp [Thread-2] <=updateStatus Dao out
+2022-03-03 18:04:45,215 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [slaveStepForStart:partition4] executed in 21s113ms
+2022-03-03 18:04:45,225 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 2m6s970ms
+2022-03-03 18:04:45,239 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646326958015}] and the following status: [COMPLETED] in 2m7s11ms
+2022-03-03 18:04:46,007 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:04:46,040 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327086007}]
+2022-03-03 18:04:46,062 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:04:46,069 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:04:46,070 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:04:46,074 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:04:46,080 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 18ms
+2022-03-03 18:04:46,094 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327086007}] and the following status: [COMPLETED] in 48ms
+2022-03-03 18:04:48,007 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:04:48,143 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327088007}]
+2022-03-03 18:04:48,172 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:04:48,183 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:04:48,183 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:04:48,188 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:04:48,195 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 22ms
+2022-03-03 18:04:48,211 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327088007}] and the following status: [COMPLETED] in 61ms
+2022-03-03 18:04:50,006 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:04:50,034 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327090006}]
+2022-03-03 18:04:50,056 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:04:50,065 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:04:50,065 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:04:50,067 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:04:50,073 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 16ms
+2022-03-03 18:04:50,087 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327090006}] and the following status: [COMPLETED] in 46ms
+2022-03-03 18:04:52,011 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:04:52,038 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327092011}]
+2022-03-03 18:04:52,060 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:04:52,068 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:04:52,069 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:04:52,075 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:04:52,089 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 29ms
+2022-03-03 18:04:52,111 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327092011}] and the following status: [COMPLETED] in 61ms
+2022-03-03 18:04:54,012 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:04:54,041 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327094012}]
+2022-03-03 18:04:54,069 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:04:54,078 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:04:54,078 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:04:54,081 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:04:54,087 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 18ms
+2022-03-03 18:04:54,115 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327094012}] and the following status: [COMPLETED] in 67ms
+2022-03-03 18:04:56,012 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:04:56,038 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327096012}]
+2022-03-03 18:04:56,060 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:04:56,067 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:04:56,067 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:04:56,070 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:04:56,075 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 15ms
+2022-03-03 18:04:56,089 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327096012}] and the following status: [COMPLETED] in 44ms
+2022-03-03 18:04:58,007 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:04:58,032 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327098007}]
+2022-03-03 18:04:58,056 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:04:58,064 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:04:58,064 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:04:58,067 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:04:58,074 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 18ms
+2022-03-03 18:04:58,088 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327098007}] and the following status: [COMPLETED] in 51ms
+2022-03-03 18:05:00,001 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:00,039 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327100002}]
+2022-03-03 18:05:00,063 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:00,073 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:00,073 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:00,076 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:00,081 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 17ms
+2022-03-03 18:05:00,094 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327100002}] and the following status: [COMPLETED] in 50ms
+2022-03-03 18:05:02,015 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:02,051 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327102015}]
+2022-03-03 18:05:02,086 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:02,096 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:02,096 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:02,099 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:02,104 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 18ms
+2022-03-03 18:05:02,117 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327102015}] and the following status: [COMPLETED] in 60ms
+2022-03-03 18:05:04,006 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:04,032 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327104007}]
+2022-03-03 18:05:04,053 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:04,076 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:04,077 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:04,080 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:04,091 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 37ms
+2022-03-03 18:05:04,108 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327104007}] and the following status: [COMPLETED] in 69ms
+2022-03-03 18:05:06,001 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:06,026 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327106001}]
+2022-03-03 18:05:06,045 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:06,053 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:06,054 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:06,056 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:06,062 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 16ms
+2022-03-03 18:05:06,075 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327106001}] and the following status: [COMPLETED] in 43ms
+2022-03-03 18:05:08,006 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:08,031 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327108006}]
+2022-03-03 18:05:08,049 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:08,057 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:08,057 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:08,059 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:08,064 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 15ms
+2022-03-03 18:05:08,075 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327108006}] and the following status: [COMPLETED] in 39ms
+2022-03-03 18:05:10,007 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:10,035 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327110007}]
+2022-03-03 18:05:10,060 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:10,070 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:10,070 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:10,073 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:10,079 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 19ms
+2022-03-03 18:05:10,095 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327110007}] and the following status: [COMPLETED] in 53ms
+2022-03-03 18:05:12,008 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:12,031 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327112008}]
+2022-03-03 18:05:12,051 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:12,059 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:12,059 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:12,060 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:12,067 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 16ms
+2022-03-03 18:05:12,080 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327112008}] and the following status: [COMPLETED] in 44ms
+2022-03-03 18:05:14,009 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:14,035 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327114009}]
+2022-03-03 18:05:14,059 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:14,067 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:14,068 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:14,071 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:14,077 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 18ms
+2022-03-03 18:05:14,091 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327114009}] and the following status: [COMPLETED] in 50ms
+2022-03-03 18:05:16,013 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:16,039 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327116013}]
+2022-03-03 18:05:16,059 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:16,066 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:16,066 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:16,069 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:16,075 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 16ms
+2022-03-03 18:05:16,088 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327116013}] and the following status: [COMPLETED] in 43ms
+2022-03-03 18:05:18,004 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:18,028 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327118004}]
+2022-03-03 18:05:18,049 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:18,059 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:18,059 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:18,063 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:18,068 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 19ms
+2022-03-03 18:05:18,080 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327118004}] and the following status: [COMPLETED] in 46ms
+2022-03-03 18:05:20,005 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:20,027 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327120005}]
+2022-03-03 18:05:20,051 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:20,060 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:20,060 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:20,063 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:20,069 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 18ms
+2022-03-03 18:05:20,083 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327120005}] and the following status: [COMPLETED] in 50ms
+2022-03-03 18:05:22,004 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:22,032 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327122004}]
+2022-03-03 18:05:22,056 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:22,064 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:22,064 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:22,068 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:22,082 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 25ms
+2022-03-03 18:05:22,094 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327122004}] and the following status: [COMPLETED] in 56ms
+2022-03-03 18:05:24,004 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:24,029 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327124004}]
+2022-03-03 18:05:24,068 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:24,077 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:24,077 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:24,080 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:24,086 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 18ms
+2022-03-03 18:05:24,100 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327124004}] and the following status: [COMPLETED] in 65ms
+2022-03-03 18:05:26,002 INFO com.billcom.Scheduler [scheduling-1] ---> Batch programmed to run every 10 seconds !
+2022-03-03 18:05:26,028 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] launched with the following parameters: [{time=1646327126002}]
+2022-03-03 18:05:26,049 INFO org.springframework.batch.core.job.SimpleStepHandler [scheduling-1] Executing step: [startStep]
+2022-03-03 18:05:26,057 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] => RangePartitionerForStart IN
+2022-03-03 18:05:26,057 INFO com.billcom.dao.BatchDaoImp [scheduling-1] =>getIdMin org.springframework.data.jpa.repository.support.SimpleJpaRepository@551e5ca5
+2022-03-03 18:05:26,059 INFO com.billcom.partitioner.RangePartitionerForStart [scheduling-1] min of partion = null max of partion = null
+2022-03-03 18:05:26,064 INFO org.springframework.batch.core.step.AbstractStep [scheduling-1] Step: [startStep] executed in 15ms
+2022-03-03 18:05:26,077 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [scheduling-1] Job: [SimpleJob: [name=processJobStart]] completed with the following parameters: [{time=1646327126002}] and the following status: [COMPLETED] in 44ms
+2022-03-03 18:05:26,984 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2022-03-03 18:05:26,984 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [RMI TCP Connection(11)-127.0.0.1] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-03-03 18:05:27,059 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(11)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
